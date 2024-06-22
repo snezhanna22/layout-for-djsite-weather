@@ -50,6 +50,9 @@ header, footer {
 .card img{
     height: 340px;
 }
+.card{
+    margin-bottom: 20px;
+}
 
 .card-body{
     max-height: 200px;
@@ -82,4 +85,38 @@ p{
     align-items: center;
     flex-wrap: wrap;
     width: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .card {
+        margin: 0 auto 20px;
+        width:100%;
+    }
+    .card img{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .card {
+        margin: 0 auto 10px;
+        width: 90%;
+    }
+    .card img {
+        width: 100%;
+        height: 260px
+    }
+}
+
+
+
+h2.news-head{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.search-form{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
