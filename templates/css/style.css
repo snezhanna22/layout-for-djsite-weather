@@ -1,0 +1,85 @@
+:root {
+    --color1: #f1f777,
+    --color2: #30c8de,
+}
+
+body{
+    background-color: #DBF0EF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.dropdown-menu li .dropdown-item:hover{
+    background: rgb(241,247,119);
+    background: radial-gradient(circle, rgba(241,247,119,1) 0%, rgba(48,200,222,1) 100%);
+}
+
+li.nav-item:hover{
+    transform: scale(1.1);
+}
+
+a.nav-link:active{
+    color: #558FE2;
+}
+
+ul .dropdown-menu li a:active{
+    color: #558FE2;
+}
+
+h2{
+    color: #073B95;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+footer{
+    padding: 20px 0;
+}
+
+header, footer {
+    background: rgb(241,247,119);
+    background: radial-gradient(circle, rgba(241,247,119,1) 0%, rgba(48,200,222,1) 100%);
+}
+
+.dropdown-menu{
+    background: rgb(241,247,119);
+    background: radial-gradient(circle, rgba(241,247,119,1) 0%, rgba(48,200,222,1) 100%);
+}
+.card img{
+    height: 340px;
+}
+
+.card-body{
+    max-height: 200px;
+}
+
+.card-text{
+    overflow: hidden;
+    text-oveflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.info_text {
+    background-color: #B9DCEC ;
+    padding: 20px 20px;
+}
+p{
+    margin-bottom: 0;
+}
+
+.info-city{
+    background-color: #B9DCEC ;
+    padding: 20px 20px;
+    margin: 50px 0;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
